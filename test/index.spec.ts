@@ -1,5 +1,5 @@
 import {
-  clusterForker
+  Cluster
 } from './../src/index';
 import {
   expect
@@ -8,7 +8,7 @@ import {
 describe('clusterForker', () => {
 
   it('Returns `hello universe`', () => {
-    expect(clusterForker()).to.equal('hello universe');
+    expect(new Cluster).to.be.instanceOf(Cluster);
   });
 
 });
