@@ -7,7 +7,7 @@ import {
 
 describe('clusterForker', () => {
 
-  it('Returns `hello universe`', () => {
+  it('Is instance of Cluster', () => {
     expect(new Cluster).to.be.instanceOf(Cluster);
   });
 
